@@ -32,16 +32,9 @@ d'information vers le jeu de test.
 
 ## Structure du projet
 
-```
-atelier_scikit-learn_iot/
-├── data/
-│   └── mesures_capteurs.csv
-├── notebooks/
-│   └── atelier_scikit-learn_iot.ipynb
-└── models/
-    ├── modele_capteur.joblib
-    └── modele_capteur.pkl
-```
+- **`data/mesures_capteurs.csv`** — le dataset brut fourni pour l'atelier
+- **`notebooks/atelier_scikit-learn_iot.ipynb`** — le notebook avec tout le travail, de l'exploration jusqu'à la sauvegarde du modèle
+- **`models/`** — le modèle entraîné, sauvegardé en `.joblib` et en `.pkl`
 
 ## Pour lancer le notebook
 
